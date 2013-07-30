@@ -1,0 +1,9 @@
+{
+  "name": "vendor",
+  "version": "0.0.1",
+  "description": "set a css style property with vendor prefixes",
+  "keywords": ["css", "css3", "vendor", "prefix", "style"],
+  "author": "stagas",
+  "license": "MIT",
+  "scripts": ["index.js"]
+}

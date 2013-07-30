@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>vendor</title>
+    <link rel="stylesheet" href="../build/build.css">
+    <style>
+      #box {
+        width: 30px;
+        height: 30px;
+        background: #eee;
+        border: 1px solid silver;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box"></div>
+    <script src="../build/build.js"></script>
+    <script>
+
+    var vendor = require('vendor');
+    var box = document.getElementById('box');
+
+    vendor(box, 'transition', 'all 1s');
+
+    setTimeout(function() {
+      vendor(box, 'box-shadow', '2px 2px 2px #555');
+      vendor(box, 'transform', 'rotate(30deg)');
+    }, 500);
+
+    </script>
+  </body>
+</html>
