@@ -1,0 +1,14 @@
+{
+  "name": "stagas-vendor",
+  "description": "set a css style property with vendor prefixes",
+  "version": "0.0.1",
+  "keywords": [
+    "css",
+    "css3",
+    "vendor",
+    "prefix",
+    "style"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
